@@ -67,18 +67,20 @@ div{
 }
 
 .list-inline > li {
-  display: inline-block;
+  display: inline;
   padding: 0px 20px;
 }
-
-li{
+.list-inline{
   list-style: none;
-  font-size: 60px;
+  
 }
 
 li a{
   padding: 10px 0;
-  color: #0E6AC7;
+  color: #fff;
+  background-color: #2C3333;
+  list-style: none;
+  font-size: 60px;
 }
 
 li a:hover{
